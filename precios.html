@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Precios de tus mejores guitarras!!</title>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Allerta" rel="stylesheet">
+    <link rel="stylesheet" href="css/inviefinal.css"/>
+  </head>
+  <body>
+    <div class="background">
+      <header id="header" class="header contenedor">                                                  <!--cabecera-->
+        <figure class="logotipo">                                                                     <!--logotipo-->
+          <img src="imagenes/invie.png" width="186" height="60" alt="Invie Logotipo"/>
+        </figure>
+        <nav class="menu">                                                                             <!--menu-->
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="index.html#guitarras">Guitarras</a>
+            </li>
+            <li>
+              <a href="precios.html">Precios</a>
+            </li>  
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <section class="tabla">
+      <div class="contenedor">
+        <table>
+          <thead>
+            <tr>
+              <th>Modelo</th>
+              <th>Precio</th>
+              <th>Descripción</th>
+            </tr>
+          </thead>
+          <tbody class="tablacuerpo">
+            <tr>
+              <td>Invie Classic</td>
+              <td>100.000bs.f</td>
+              <td>La mejor :v</td>
+            </tr>
+            <tr>
+              <td>Invie Classic</td>
+              <td>100.000bs.f</td>
+              <td>La mejor :v</td>
+            </tr>
+            <tr>
+              <td>Invie Classic</td>
+              <td>100.000bs.f</td>
+              <td>La mejor :v</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <footer class="footer">                                                                           <!-- comienzo del footer-->
+      <div class="contenedor">
+        <div class="contacto">
+          <img class="logo" src="imagenes/invie-white.png" alt="logotipo"/>                             <!-- logo-->
+          <a href="tel:+58451451478"><strong>Teléfono</strong> <span>302442121</span></a>
+          <a href="mailto:info@invie.com"><strong>E-mail</strong><span>info@invie.com</span></a>
+        </div>
+        <form class="formulario">                                                             <!--comienzo del formulario-->
+          <div class="col1">                                                                   <!--  nombres y email-->
+              <label for="nombre">Nombre</label>                                        
+              <input type="text" id="nombre" required/>
+              <label for="email">E-mail</label>
+              <input type="text" id="email" required/>
+            <div class="sexo">                                                                             <!--género-->
+              <label for="mujer">
+                <input type="radio" id="mujer" checked value="mujer" name="sexo"/>mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" value="hombre" name="sexo"/>hombre
+              </label>
+            </div>
+            <div class="intereses">                                                                        <!-- intereses-->
+              <label for="cotizacion">
+                <input type="checkbox" id="cotizacion" checked value="cotizacion" name="intereses">Cotización
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos" value="reclamos" name="intereses">Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios" value="comentarios" name="intereses">Cometarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros" value="otros" name="intereses">Otros
+              </label>
+            </div>
+          </div>
+          <div class="col2">                                                                            <!--asunto-->
+            <label for="asunto">Asunto</label>
+              <textarea name="asunto" id="asunto" value="asunto" cols="30" rows="5"></textarea>
+            <input type="submit" class="boton "value="enviar"/>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
